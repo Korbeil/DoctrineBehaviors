@@ -146,7 +146,7 @@ trait TranslatableMethods
     }
 
     /**
-     * @return Returns the current locale
+     * @return string Returns the current locale
      */
     public function getCurrentLocale()
     {
@@ -162,7 +162,7 @@ trait TranslatableMethods
     }
 
     /**
-     * @return Returns the default locale
+     * @return string Returns the default locale
      */
     public function getDefaultLocale()
     {
